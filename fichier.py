@@ -1,8 +1,13 @@
 import json
 
 chemin = "/home/dragon76/Documents/ProjetPython/fichier.json"
-with open(chemin, "w") as f:
-    json.dump(list(range(10)), f, indent=4)
+with open(chemin, "r") as f:
+    #Ajouter des données dans un fichier json
+    #json.dump(list(range(10)), f, indent=4) #Pour écrire dans le fichier json
+    
+    # 2crire dans un fichier json
+    liste = json.load(f)
+    print(liste)
 
 
 
