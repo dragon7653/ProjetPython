@@ -1,0 +1,20 @@
+{
+    "Musique": [
+        "Rock",
+        "Jazz",
+        "Pop"
+    ],
+    "Documents": [
+        "Factures",
+        "Travail",
+        "Maison"
+    ],
+    "Images": [
+        "Vacances",
+        "Famille"
+    ],
+    "Videos": [
+        "Chat",
+        "Facebook"
+    ]
+}

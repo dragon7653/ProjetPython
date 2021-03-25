@@ -27,11 +27,11 @@ def ecrire_json(fichier_json, dictionnaire):
 
 
 
-base = r'C:\Users\dragon76530\Documents\cours Python\StructureDossier'
-base = base.replace('\\', '/')
+base = "home/dragon76/Documents/ProjetPython"
 
-fichier_json = r'C:\Users\dragon76530\Documents\cours Python\StructureDossier\structure.json'
-fichier_json = fichier_json.replace('\\', '/')
+
+fichier_json = "home/dragon76/Documents/ProjetPython/structure.json"
+
 
 
 structure = {
