@@ -10,7 +10,6 @@ def print_hierarchie():
         print('. {0}'.format(key))
         for value in values:
             print('|---> {0}'.format(value))
-        
         print('='*25)
 
 def creer_dossiers(dossiers):
@@ -27,10 +26,10 @@ def ecrire_json(fichier_json, dictionnaire):
 
 
 
-base = "home/dragon76/Documents/ProjetPython"
+base = "/home/dragon76/Documents/ProjetPython/Structure_dossier"
 
 
-fichier_json = "home/dragon76/Documents/ProjetPython/structure.json"
+fichier_json = "/home/dragon76/Documents/ProjetPython/Structure_dossier/structure.json"
 
 
 
